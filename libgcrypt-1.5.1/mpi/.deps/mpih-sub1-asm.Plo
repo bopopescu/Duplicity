@@ -1,0 +1,6 @@
+mpih-sub1-asm.lo .libs/mpih-sub1-asm.o: mpih-sub1-asm.S sysdep.h \
+  asm-syntax.h
+
+sysdep.h:
+
+asm-syntax.h:

@@ -1,0 +1,6 @@
+mpih-mul3-asm.lo .libs/mpih-mul3-asm.o: mpih-mul3-asm.S sysdep.h \
+  asm-syntax.h
+
+sysdep.h:
+
+asm-syntax.h:

@@ -1,0 +1,12 @@
+gpg_error-strsource-sym.o gpg_error-strsource-sym.o: strsource-sym.c \
+  ../config.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  gpg-error.h err-sources-sym.h
+
+../config.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
+
+gpg-error.h:
+
+err-sources-sym.h:

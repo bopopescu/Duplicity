@@ -1,0 +1,14 @@
+libgpg_error_la-strsource.lo .libs/libgpg_error_la-strsource.o:  \
+ strsource.c ../config.h gpg-error.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  gettext.h err-sources.h
+
+../config.h:
+
+gpg-error.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
+
+gettext.h:
+
+err-sources.h:

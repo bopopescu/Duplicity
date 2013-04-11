@@ -1,0 +1,1021 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:640: checking if you set and exported the environment variable CC
+configure:647: checking for environment variable CFLAGS
+configure:654: checking for environment variable CPPFLAGS
+configure:657: checking for environment variable LDFLAGS
+configure:660: checking for environment variable LIBS
+configure:1113: checking platform
+configure:1146: checking for gcc
+configure:1259: checking whether the C compiler (gcc  ) works
+configure:1275: gcc -o conftest    conftest.c  1>&5
+configure:1301: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1306: checking whether we are using GNU C
+configure:1315: gcc -E conftest.c
+configure:1334: checking whether gcc accepts -g
+configure:1367: checking if the C compiler can use precompiled headers
+configure:1522: checking how to run the C preprocessor
+configure:1543: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2764: checking the version of GCC
+configure:2828: checking if we should customize your CFLAGS environment variable
+configure:3041: gcc -c -O2 -W -Wall -Wno-format-y2k  conftest.c 1>&5
+configure: In function 'main':
+configure:3037: warning: unused variable 'junk'
+configure:3059: checking for ldd
+configure:3128: checking if compiled programs use a shared library version of libgcc
+configure:3177: gcc -o conftest -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:3173: warning: implicit declaration of function 'strncpy'
+configure:3173: warning: incompatible implicit declaration of built-in function 'strncpy'
+configure:3258: checking if this is a debug build
+configure:3330: checking for unistd.h
+configure:3340: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:3369: checking size of st_size field in struct stat
+configure:3414: gcc -o conftest -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:3399: warning: return type defaults to 'int'
+configure:3450: checking size of off_t
+configure:3495: gcc -o conftest -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:3480: warning: return type defaults to 'int'
+configure:4042: checking if we should add CFLAGS for Large File Support
+configure:4074: checking if we should add CFLAGS for reentrancy
+configure:4084: checking if MACOSX_DEPLOYMENT_TARGET environment variable is set
+configure:4112: checking if Mac OS X universal SDK is available
+configure:4166: checking if we should add CFLAGS for Mac OS X
+configure:4172: checking for strip
+configure:4226: checking for object suffix
+configure:4254: checking for Cygwin environment
+configure:4270: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure: In function 'main':
+configure:4266: error: '__CYGWIN32__' undeclared (first use in this function)
+configure:4266: error: (Each undeclared identifier is reported only once
+configure:4266: error: for each function it appears in.)
+configure: failed program was:
+#line 4259 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:4287: checking for mingw32 environment
+configure:4299: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure: In function 'main':
+configure:4295: error: '__MINGW32__' undeclared (first use in this function)
+configure:4295: error: (Each undeclared identifier is reported only once
+configure:4295: error: for each function it appears in.)
+configure: failed program was:
+#line 4292 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:4318: checking for executable suffix
+configure:4414: checking for ANSI C header files
+configure:4427: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4494: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:4489: warning: implicit declaration of function 'exit'
+configure:4489: warning: incompatible implicit declaration of built-in function 'exit'
+configure:4521: checking for arpa/nameser.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for gnu/libc-version.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4527:30: error: gnu/libc-version.h: No such file or directory
+configure: failed program was:
+#line 4526 "configure"
+#include "confdefs.h"
+#include <gnu/libc-version.h>
+configure:4521: checking for locale.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for net/errno.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4527:23: error: net/errno.h: No such file or directory
+configure: failed program was:
+#line 4526 "configure"
+#include "confdefs.h"
+#include <net/errno.h>
+configure:4521: checking for nserve.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4527:20: error: nserve.h: No such file or directory
+configure: failed program was:
+#line 4526 "configure"
+#include "confdefs.h"
+#include <nserve.h>
+configure:4521: checking for resolv.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sgtty.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for string.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for strings.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sys/id.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4527:20: error: sys/id.h: No such file or directory
+configure: failed program was:
+#line 4526 "configure"
+#include "confdefs.h"
+#include <sys/id.h>
+configure:4521: checking for sys/ioctl.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for syslog.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sys/socket.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sys/time.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sys/types.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sys/utsname.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for sys/systeminfo.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4527:28: error: sys/systeminfo.h: No such file or directory
+configure: failed program was:
+#line 4526 "configure"
+#include "confdefs.h"
+#include <sys/systeminfo.h>
+configure:4521: checking for termio.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4527:20: error: termio.h: No such file or directory
+configure: failed program was:
+#line 4526 "configure"
+#include "confdefs.h"
+#include <termio.h>
+configure:4521: checking for termios.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for time.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for utime.h
+configure:4531: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4521: checking for unistd.h
+configure:4521: checking for gnu/libc-version.h
+configure:4558: checking whether time.h and sys/time.h may both be included
+configure:4572: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure: In function 'main':
+configure:4568: warning: unused variable 'tp'
+configure:4603: checking for sys/un.h
+configure:4613: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:4640: checking for UNIX domain sockets
+configure:4679: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:4668: warning: return type defaults to 'int'
+configure: In function 'main':
+configure:4673: warning: implicit declaration of function 'exit'
+configure:4673: warning: incompatible implicit declaration of built-in function 'exit'
+configure:4713: checking for sun_len field in struct sockaddr_un
+configure:4738: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:4732: warning: implicit declaration of function 'strlen'
+configure:4732: warning: incompatible implicit declaration of built-in function 'strlen'
+configure:4733: warning: implicit declaration of function 'exit'
+configure:4733: warning: incompatible implicit declaration of built-in function 'exit'
+configure:4733: error: expected ')' before ';' token
+configure:4735: error: expected ';' before '}' token
+configure: failed program was:
+#line 4719 "configure"
+#include "confdefs.h"
+
+	/* includes */
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/socket.h>
+#include <sys/un.h>
+
+int main() {
+
+struct sockaddr_un uaddr;
+
+uaddr.sun_len = strlen("/tmp/test.sock");
+exit(((int) uaddr.sun_len);	/* bogus code, of course. */
+
+; return 0; }
+configure:4780: checking for strerror
+configure:4808: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:4882: checking for socket
+configure:4910: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:5164: checking for gethostbyname
+configure:5192: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:5270: checking if we need to look for a separate DNS resolver library
+configure:5315: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:5302: warning: return type defaults to 'int'
+configure: In function 'main':
+configure:5309: warning: implicit declaration of function 'exit'
+configure:5309: warning: incompatible implicit declaration of built-in function 'exit'
+configure:5311: warning: incompatible implicit declaration of built-in function 'exit'
+configure:5729: checking if SOCKS5 will be used
+configure:5738: checking for curses library headers
+configure:5744: checking for ncurses.h
+configure:5754: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:5744: checking for curses.h
+configure:5754: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:5744: checking for termios.h
+configure:5744: checking for termio.h
+configure:5744: checking for sgtty.h
+configure:5744: checking for sys/ioctl.h
+configure:5833: checking for curses library
+configure:5869: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure: In function 'main':
+configure:5862: warning: implicit declaration of function 'strcmp'
+configure:5919: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:5908: warning: return type defaults to 'int'
+configure: In function 'main':
+configure:5907: warning: unused parameter 'argv'
+configure:6273: checking for working const
+configure:6327: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure: In function 'main':
+configure:6301: warning: unused variable 's'
+configure:6321: warning: unused variable 'foo'
+configure:6289: warning: unused variable 'zero'
+configure:6283: warning: unused variable 'x'
+configure:6348: checking for size_t
+configure:6381: checking for off_t
+configure:6414: checking for mode_t
+configure:6447: checking for pid_t
+configure:6480: checking for uid_t in sys/types.h
+configure:6515: checking what type main() should return
+configure:6542: checking for 64-bit integral type: long long
+configure:6581: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:6568: warning: return type defaults to 'int'
+configure: In function 'main':
+configure:6574: warning: implicit declaration of function 'exit'
+configure:6574: warning: incompatible implicit declaration of built-in function 'exit'
+configure:6607: checking how to print a 64-bit integral type
+configure:6647: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:6633: warning: return type defaults to 'int'
+configure:6736: checking how to scan a 64-bit integral type
+configure:6779: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:6762: warning: return type defaults to 'int'
+configure:6872: checking if everything was available to use the 64-bit integral type
+configure:6951: checking what type the tv_sec field of struct timeval is
+configure:7052: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:6999: warning: unused parameter 'argv'
+configure:7086: checking what type the tv_usec field of struct timeval is
+configure:7115: checking for perl
+configure:7153: checking for mktemp
+configure:7198: checking for return type from write
+configure:7509: checking for size parameter to write
+configure:7512: checking for return type from send
+configure:7515: checking for size parameter to send
+configure:7518: checking for size parameter to connect
+configure:7521: checking for size parameter to setsockopt
+configure:7524: checking for backlog parameter to listen
+configure:7527: checking for seconds parameter to alarm
+configure:7530: checking for address parameter to gethostbyaddr
+configure:7533: checking for size parameter to gethostname
+configure:7683: checking types of arguments for select()
+configure:7716: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure:7710: warning: type defaults to 'int' in declaration of 'select'
+configure:7757: checking for struct stat64
+configure:7809: checking for sig_atomic_t
+configure:7836: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:7860: checking how to access getopt() global variables
+configure:7890: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure:7963: checking for useable _res global variable
+configure:7992: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:7987: warning: implicit declaration of function 'strlen'
+configure:7987: warning: incompatible implicit declaration of built-in function 'strlen'
+Undefined symbols for architecture x86_64:
+  "_res_9_init", referenced from:
+      _main in ccQoYRgG.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 7965 "configure"
+#include "confdefs.h"
+
+	/* includes */
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#ifdef HAVE_ARPA_NAMESER_H
+#	include <arpa/nameser.h>
+#endif
+#ifdef HAVE_RESOLV_H
+#	include <resolv.h>
+#endif
+
+int main() {
+
+	/* function-body */
+	int len;
+
+	res_init();
+	len = (int) strlen(_res.defdname);
+
+; return 0; }
+configure:8013: checking for struct cmsghdr
+configure:8040: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:8035: warning: implicit declaration of function 'exit'
+configure:8035: warning: incompatible implicit declaration of built-in function 'exit'
+configure:8035: warning: cast from pointer to integer of different size
+configure:8066: checking for msg_control field in struct msghdr
+configure:8092: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:8087: warning: implicit declaration of function 'exit'
+configure:8087: warning: incompatible implicit declaration of built-in function 'exit'
+configure:8087: warning: cast from pointer to integer of different size
+configure:8118: checking for msg_accrights field in struct msghdr
+configure:8144: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:8137: error: 'struct msghdr' has no member named 'msg_accrights'
+configure:8138: error: 'struct msghdr' has no member named 'msg_accrightslen'
+configure:8139: warning: implicit declaration of function 'exit'
+configure:8139: warning: incompatible implicit declaration of built-in function 'exit'
+configure:8139: error: 'struct msghdr' has no member named 'msg_accrights'
+configure: failed program was:
+#line 8124 "configure"
+#include "confdefs.h"
+
+	/* includes */
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+#include <sys/socket.h>
+#include <sys/un.h>
+
+int main() {
+
+struct msghdr m;
+
+m.msg_accrights = &m;
+m.msg_accrightslen = sizeof(m);
+exit(((int) &m.msg_accrights) & 0xff);	/* bogus code, of course. */
+
+; return 0; }
+configure:8184: checking for sys/time.h
+configure:8331: checking for getcwd
+configure:8359: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8331: checking for getwd
+configure:8359: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for fstat64
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for getdomainname
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for gethostname
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for getpass
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for getpassphrase
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_getpassphrase", referenced from:
+      _main in cceZskDS.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char getpassphrase(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getpassphrase();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_getpassphrase) || defined (__stub___getpassphrase)
+choke me
+#else
+getpassphrase();
+#endif
+
+; return 0; }
+configure:8397: checking for gnu_get_libc_release
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_gnu_get_libc_release", referenced from:
+      _main in ccwXGyLE.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char gnu_get_libc_release(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gnu_get_libc_release();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_gnu_get_libc_release) || defined (__stub___gnu_get_libc_release)
+choke me
+#else
+gnu_get_libc_release();
+#endif
+
+; return 0; }
+configure:8397: checking for gnu_get_libc_version
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_gnu_get_libc_version", referenced from:
+      _main in cc3FYVKi.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char gnu_get_libc_version(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gnu_get_libc_version();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_gnu_get_libc_version) || defined (__stub___gnu_get_libc_version)
+choke me
+#else
+gnu_get_libc_version();
+#endif
+
+; return 0; }
+configure:8397: checking for inet_aton
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for inet_ntop
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for llseek
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_llseek", referenced from:
+      _main in ccqZPcAj.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char llseek(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char llseek();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_llseek) || defined (__stub___llseek)
+choke me
+#else
+llseek();
+#endif
+
+; return 0; }
+configure:8397: checking for lseek64
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_lseek64", referenced from:
+      _main in ccp31O46.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char lseek64(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char lseek64();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_lseek64) || defined (__stub___lseek64)
+choke me
+#else
+lseek64();
+#endif
+
+; return 0; }
+configure:8397: checking for lstat64
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for memmove
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8409: warning: conflicting types for built-in function 'memmove'
+configure:8397: checking for mktime
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for open64
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_open64", referenced from:
+      _main in ccuPZUMC.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char open64(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open64();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_open64) || defined (__stub___open64)
+choke me
+#else
+open64();
+#endif
+
+; return 0; }
+configure:8397: checking for pathconf
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for readlink
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for res_init
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for setlocale
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for setpgid
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for setpgrp
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for setsid
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for setvbuf
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for sigaction
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for sigsetjmp
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for stat64
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for strcasecmp
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8409: warning: conflicting types for built-in function 'strcasecmp'
+configure:8397: checking for strcoll
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for strdup
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8409: warning: conflicting types for built-in function 'strdup'
+configure:8397: checking for strerror
+configure:8397: checking for strncoll
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_strncoll", referenced from:
+      _main in ccQFNkbe.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char strncoll(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char strncoll();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_strncoll) || defined (__stub___strncoll)
+choke me
+#else
+strncoll();
+#endif
+
+; return 0; }
+configure:8397: checking for strstr
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8409: warning: conflicting types for built-in function 'strstr'
+configure:8397: checking for strtoq
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for symlink
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for sysconf
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for sysctl
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for sysinfo
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_sysinfo", referenced from:
+      _main in ccOCa6LZ.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8402 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char sysinfo(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char sysinfo();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_sysinfo) || defined (__stub___sysinfo)
+choke me
+#else
+sysinfo();
+#endif
+
+; return 0; }
+configure:8397: checking for syslog
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for tcgetattr
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for uname
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8397: checking for waitpid
+configure:8425: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8452: checking for gethostbyaddr_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_gethostbyaddr_r", referenced from:
+      _main in cccFcgGN.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char gethostbyaddr_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gethostbyaddr_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_gethostbyaddr_r) || defined (__stub___gethostbyaddr_r)
+choke me
+#else
+gethostbyaddr_r();
+#endif
+
+; return 0; }
+configure:8452: checking for gethostbyname_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in ccpYeAQR.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char gethostbyname_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gethostbyname_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_gethostbyname_r) || defined (__stub___gethostbyname_r)
+choke me
+#else
+gethostbyname_r();
+#endif
+
+; return 0; }
+configure:8452: checking for gethostbyname2_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_gethostbyname2_r", referenced from:
+      _main in cc2FnuW0.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char gethostbyname2_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char gethostbyname2_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_gethostbyname2_r) || defined (__stub___gethostbyname2_r)
+choke me
+#else
+gethostbyname2_r();
+#endif
+
+; return 0; }
+configure:8452: checking for getlogin_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8452: checking for getpwnam_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8452: checking for _posix_getpwnam_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "__posix_getpwnam_r", referenced from:
+      _main in ccqP0tAi.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char _posix_getpwnam_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char _posix_getpwnam_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub__posix_getpwnam_r) || defined (__stub____posix_getpwnam_r)
+choke me
+#else
+_posix_getpwnam_r();
+#endif
+
+; return 0; }
+configure:8452: checking for getpwuid_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8452: checking for _posix_getpwuid_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "__posix_getpwuid_r", referenced from:
+      _main in cca7xt11.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char _posix_getpwuid_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char _posix_getpwuid_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub__posix_getpwuid_r) || defined (__stub____posix_getpwuid_r)
+choke me
+#else
+_posix_getpwuid_r();
+#endif
+
+; return 0; }
+configure:8452: checking for getservbyname_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_getservbyname_r", referenced from:
+      _main in ccHSVL5D.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char getservbyname_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getservbyname_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_getservbyname_r) || defined (__stub___getservbyname_r)
+choke me
+#else
+getservbyname_r();
+#endif
+
+; return 0; }
+configure:8452: checking for getservbyport_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+Undefined symbols for architecture x86_64:
+  "_getservbyport_r", referenced from:
+      _main in cc4fuYKo.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8457 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char getservbyport_r(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getservbyport_r();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_getservbyport_r) || defined (__stub___getservbyport_r)
+choke me
+#else
+getservbyport_r();
+#endif
+
+; return 0; }
+configure:8452: checking for gmtime_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8452: checking for localtime_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8452: checking for readdir_r
+configure:8480: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8511: checking for snprintf
+configure:8539: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8523: warning: conflicting types for built-in function 'snprintf'
+configure:8511: checking for vsnprintf
+configure:8539: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8523: warning: conflicting types for built-in function 'vsnprintf'
+configure:8567: checking if snprintf works correctly
+configure:8624: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8606: warning: return type defaults to 'int'
+configure:8655: checking what snprintf() returns
+configure:8698: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:8685: warning: return type defaults to 'int'
+configure:9196: checking for sigsetjmp and siglongjmp
+configure:9226: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:9221: warning: implicit declaration of function 'exit'
+configure:9221: warning: incompatible implicit declaration of built-in function 'exit'
+configure:9310: checking if setpgrp behavior needs to be checked
+configure:9391: checking whether setvbuf behavior can be checked
+configure:9397: checking whether setvbuf arguments are reversed
+configure:9419: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure:9408: warning: return type defaults to 'int'
+configure: In function 'main':
+configure:9412: warning: passing argument 2 of 'setvbuf' makes pointer from integer without a cast
+configure:9412: warning: passing argument 3 of 'setvbuf' makes integer from pointer without a cast
+configure:9413: warning: implicit declaration of function 'exit'
+configure:9413: warning: incompatible implicit declaration of built-in function 'exit'
+configure: failed program was:
+#line 9405 "configure"
+#include "confdefs.h"
+#include <stdio.h>
+	/* If setvbuf has the reversed format, exit 0. */
+	main () {
+	  /* This call has the arguments reversed.
+	     A reversed system may check and see that the address of main
+	     is not _IOLBF, _IONBF, or _IOFBF, and return nonzero.  */
+	  if (setvbuf(stdout, _IOLBF, (char *) main, BUFSIZ) != 0)
+	    exit(1);
+	  putc('\r', stdout);
+	  exit(0);			/* Non-reversed systems segv here.  */
+	}
+configure:9446: checking for working alloca.h
+configure:9458: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:9454: warning: unused variable 'p'
+configure:9479: checking for alloca
+configure:9512: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  1>&5
+configure: In function 'main':
+configure:9508: warning: unused variable 'p'
+configure:9697: checking string parameter to waddstr
+configure:9901: checking whether curses structure has maxx or _maxx field
+configure:9934: gcc -c -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc  conftest.c 1>&5
+configure: In function 'main':
+configure:9929: error: 'WINDOW' has no member named 'maxx'
+configure: failed program was:
+#line 9903 "configure"
+#include "confdefs.h"
+
+	/* includes */
+#if defined(AIX) || defined(_AIX) || defined(__HOS_AIX__)
+#	define _ALL_SOURCE 1
+#endif
+#ifdef HAVE_UNISTD_H
+#	include <unistd.h>
+#endif
+#include <sys/types.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#ifdef HAVE_NCURSES_H
+#	define NCURSES_OPAQUE 0
+#	include <ncurses.h>
+#else
+#	include <curses.h>
+#endif
+
+int main() {
+
+		WINDOW *w;
+	
+		w = newwin(10, 10, 1, 1);
+		w->maxx = 0;
+
+; return 0; }
+configure:10013: checking for getcurx() functionality in curses library
+configure:10046: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10067: checking for getyx() functionality in curses library
+configure:10100: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10121: checking for getmaxx() functionality in curses library
+configure:10153: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10174: checking for getmaxyx() functionality in curses library
+configure:10206: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10227: checking for getbegx() functionality in curses library
+configure:10260: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10281: checking for getbegyx() functionality in curses library
+configure:10313: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10334: checking for touchwin() functionality in curses library
+configure:10364: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10385: checking for beep() functionality in curses library
+configure:10414: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10436: checking for keypad
+configure:10464: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10436: checking for nodelay
+configure:10464: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10436: checking for curs_set
+configure:10464: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10436: checking for doupdate
+configure:10464: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10436: checking for wnoutrefresh
+configure:10464: gcc -o conftest -D_REENTRANT -O2 -W -Wall -Wno-format-y2k -static-libgcc   conftest.c  -lncurses 1>&5
+configure:10501: checking for long file names
+configure:10545: checking whether make sets ${MAKE}
+configure:10575: checking for gtar
+configure:10614: checking for tar
+configure:10662: checking how to create TAR files
+configure:10720: checking for ranlib
+configure:10750: checking for ar
+configure:10781: checking for a BSD compatible install
+configure:10837: checking for pwd
+configure:10880: checking for ccdv
+configure:11390: checking if shell can test for symlinks
+configure:11888: checking CC
+configure:11891: checking CFLAGS
+configure:11894: checking CPPFLAGS
+configure:11897: checking DEFS
+configure:11900: checking NDEFS
+configure:11903: checking LDFLAGS
+configure:11906: checking LIBS

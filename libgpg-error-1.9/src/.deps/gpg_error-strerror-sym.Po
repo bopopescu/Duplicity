@@ -1,0 +1,14 @@
+gpg_error-strerror-sym.o gpg_error-strerror-sym.o: strerror-sym.c \
+  ../config.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  gpg-error.h err-codes-sym.h errnos-sym.h
+
+../config.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h:
+
+gpg-error.h:
+
+err-codes-sym.h:
+
+errnos-sym.h:
