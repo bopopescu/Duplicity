@@ -126,7 +126,7 @@ AUTOMAKE = ${SHELL} /Users/joaovasques/Duplicity/libgcrypt-1.5.1/missing --run a
 AWK = awk
 BUILD_FILEVERSION = 1,5,1,54002
 BUILD_REVISION = d2f2f90
-BUILD_TIMESTAMP = 2013-04-11T13:32+0000
+BUILD_TIMESTAMP = 2013-04-11T18:15+0000
 CC = gcc
 CCAS = gcc
 CCASDEPMODE = depmode=gcc3

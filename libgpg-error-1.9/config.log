@@ -30,8 +30,8 @@ Kernel configured for up to 8 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 8.00 gigabytes
-Default processor set: 185 tasks, 1022 threads, 8 processors
-Load average: 1.74, Mach factor: 6.25
+Default processor set: 183 tasks, 1031 threads, 8 processors
+Load average: 3.20, Mach factor: 4.78
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -82,7 +82,7 @@ configure:2959: result: i386-apple-darwin12.3.0
 configure:2983: autobuild project... libgpg-error
 configure:2985: autobuild revision... 1.9
 configure:2989: autobuild hostname... Joaos-MacBook-Pro.local
-configure:2998: autobuild timestamp... 20130411-143056
+configure:2998: autobuild timestamp... 20130411-191536
 configure:3052: checking for gcc
 configure:3068: found /usr/bin/gcc
 configure:3079: result: gcc
@@ -526,11 +526,11 @@ configure:12347: checking for iconv
 configure:12369: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_iconv", referenced from:
-      _main in ccjfPL6Z.o
+      _main in ccoXDhXH.o
   "_iconv_close", referenced from:
-      _main in ccjfPL6Z.o
+      _main in ccoXDhXH.o
   "_iconv_open", referenced from:
-      _main in ccjfPL6Z.o
+      _main in ccoXDhXH.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:12369: $? = 1
@@ -830,6 +830,7 @@ config.status:1164: creating lang/cl/Makefile
 config.status:1164: creating lang/cl/gpg-error.asd
 config.status:1164: creating src/versioninfo.rc
 config.status:1164: creating config.h
+config.status:1336: config.h is unchanged
 config.status:1384: executing depfiles commands
 config.status:1384: executing libtool commands
 config.status:1384: executing po-directories commands

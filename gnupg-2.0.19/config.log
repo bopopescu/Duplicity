@@ -30,8 +30,8 @@ Kernel configured for up to 8 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 8.00 gigabytes
-Default processor set: 182 tasks, 1009 threads, 8 processors
-Load average: 1.95, Mach factor: 6.04
+Default processor set: 182 tasks, 1028 threads, 8 processors
+Load average: 4.36, Mach factor: 4.46
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -80,7 +80,7 @@ configure:3279: result: x86_64-apple-darwin12.3.0
 configure:3303: autobuild project... gnupg
 configure:3305: autobuild revision... 2.0.19
 configure:3309: autobuild hostname... Joaos-MacBook-Pro.local
-configure:3318: autobuild timestamp... 20130411-144607
+configure:3318: autobuild timestamp... 20130411-191555
 configure:3335: checking for style of include used by make
 configure:3363: result: GNU
 configure:3433: checking for gcc
@@ -612,7 +612,7 @@ configure:7895: checking for usb_create_match
 configure:7895: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_usb_create_match", referenced from:
-      _main in ccWAkiQr.o
+      _main in ccwzwNXB.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:7895: $? = 1
@@ -847,7 +847,7 @@ configure:8427: checking for adns_free
 configure:8427: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_adns_free", referenced from:
-      _main in ccE1RJps.o
+      _main in ccBnIoV9.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:8427: $? = 1
@@ -941,7 +941,7 @@ configure:8702: checking for library containing dn_skipname
 configure:8733: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_dn_skipname", referenced from:
-      _main in ccrFr0zN.o
+      _main in ccD9W2zY.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:8733: $? = 1
@@ -1002,7 +1002,7 @@ configure: failed program was:
 configure:8733: gcc -o conftest -g -O2   conftest.c -lresolv   >&5
 Undefined symbols for architecture x86_64:
   "_dn_skipname", referenced from:
-      _main in ccyRlfhT.o
+      _main in cc0H2a1J.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:8733: $? = 1
@@ -1191,11 +1191,11 @@ configure:8860: checking whether I can make the resolver usable with BIND_8_COMP
 configure:8880: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_res_9_dn_expand", referenced from:
-      _main in cciljpJM.o
+      _main in ccGyYlzS.o
   "_res_9_dn_skipname", referenced from:
-      _main in cciljpJM.o
+      _main in ccGyYlzS.o
   "_res_9_query", referenced from:
-      _main in cciljpJM.o
+      _main in ccGyYlzS.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:8880: $? = 1
@@ -1274,7 +1274,7 @@ configure:9080: checking for ldap_start_tls_sA
 configure:9080: gcc -o conftest -g -O2     conftest.c -lldap   >&5
 Undefined symbols for architecture x86_64:
   "_ldap_start_tls_sA", referenced from:
-      _main in ccda8G9Q.o
+      _main in ccpnALDm.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:9080: $? = 1
@@ -1386,11 +1386,11 @@ configure:10290: checking for iconv
 configure:10312: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_iconv", referenced from:
-      _main in ccvs1HZ3.o
+      _main in cc5moefl.o
   "_iconv_close", referenced from:
-      _main in ccvs1HZ3.o
+      _main in cc5moefl.o
   "_iconv_open", referenced from:
-      _main in ccvs1HZ3.o
+      _main in cc5moefl.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:10312: $? = 1
@@ -3456,7 +3456,7 @@ configure:13074: checking for _doprnt
 configure:13074: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "__doprnt", referenced from:
-      _main in ccUAavIW.o
+      _main in cc0q9ZU5.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13074: $? = 1
@@ -4036,7 +4036,7 @@ configure:13312: checking for strlwr
 configure:13312: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_strlwr", referenced from:
-      _main in ccEW9UzT.o
+      _main in ccUunitA.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13312: $? = 1
@@ -4250,7 +4250,7 @@ configure:13348: checking for clock_gettime
 configure:13348: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_clock_gettime", referenced from:
-      _main in cc8HBMul.o
+      _main in ccZeHmke.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13348: $? = 1
@@ -4810,7 +4810,7 @@ configure:13422: checking for memicmp
 configure:13422: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_memicmp", referenced from:
-      _main in ccDnb93L.o
+      _main in ccZQklzV.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13422: $? = 1
@@ -5020,7 +5020,7 @@ configure:13422: checking for stricmp
 configure:13422: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_stricmp", referenced from:
-      _main in ccT2H1wW.o
+      _main in ccLFihN9.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13422: $? = 1
@@ -5218,7 +5218,7 @@ configure:13434: checking for memrchr
 configure:13434: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_memrchr", referenced from:
-      _main in ccg198Kv.o
+      _main in cc23NRTB.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13434: $? = 1
@@ -5438,7 +5438,7 @@ configure:13446: checking for fopencookie
 configure:13446: gcc -o conftest -g -O2   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_fopencookie", referenced from:
-      _main in cc2tyyVP.o
+      _main in ccTNoVP5.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:13446: $? = 1
@@ -9648,6 +9648,7 @@ config.status:1226: creating tests/Makefile
 config.status:1226: creating tests/openpgp/Makefile
 config.status:1226: creating tests/pkits/Makefile
 config.status:1226: creating config.h
+config.status:1407: config.h is unchanged
 config.status:1455: executing depfiles commands
 config.status:1455: executing po-directories commands
 

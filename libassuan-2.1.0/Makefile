@@ -161,7 +161,7 @@ AUTOMAKE = ${SHELL} /Users/joaovasques/Duplicity/libassuan-2.1.0/missing --run a
 AWK = awk
 BUILD_FILEVERSION = 2,1,0,32034
 BUILD_REVISION = 7d227ac
-BUILD_TIMESTAMP = 2013-04-11T13:39+0000
+BUILD_TIMESTAMP = 2013-04-11T18:15+0000
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CC_FOR_BUILD = gcc

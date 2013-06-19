@@ -30,8 +30,8 @@ Kernel configured for up to 8 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 8.00 gigabytes
-Default processor set: 179 tasks, 994 threads, 8 processors
-Load average: 0.96, Mach factor: 7.03
+Default processor set: 182 tasks, 1030 threads, 8 processors
+Load average: 1.86, Mach factor: 6.13
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -1642,8 +1642,8 @@ configure:25499: gcc -o conftest -g -O2 -I./popt   conftest.c -lbz2 -lz  >&5
 conftest.c:81: warning: conflicting types for built-in function 'gettext'
 Undefined symbols for architecture x86_64:
   "_gettext", referenced from:
-      _main in ccDBHE0m.o
-      _f in ccDBHE0m.o
+      _main in ccnb8A0n.o
+      _f in ccnb8A0n.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:25505: $? = 1
@@ -1754,8 +1754,8 @@ configure:25499: gcc -o conftest -g -O2 -I./popt   conftest.c -lbz2 -lz  >&5
 conftest.c:81: warning: conflicting types for built-in function 'dgettext'
 Undefined symbols for architecture x86_64:
   "_dgettext", referenced from:
-      _main in cceRwzUP.o
-      _f in cceRwzUP.o
+      _main in ccroyWVF.o
+      _f in ccroyWVF.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:25505: $? = 1
@@ -1995,6 +1995,7 @@ config.status:759: creating popt/Makefile
 config.status:759: creating testsuite/Makefile
 config.status:759: creating librsync-config.h
 config.status:825: creating config.h
+config.status:1027: config.h is unchanged
 config.status:1207: executing depfiles commands
 
 ## ---------------- ##

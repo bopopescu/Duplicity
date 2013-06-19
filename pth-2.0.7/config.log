@@ -30,8 +30,8 @@ Kernel configured for up to 8 processors.
 Processor type: i486 (Intel 80486)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 8.00 gigabytes
-Default processor set: 181 tasks, 1008 threads, 8 processors
-Load average: 2.02, Mach factor: 5.97
+Default processor set: 182 tasks, 1045 threads, 8 processors
+Load average: 3.40, Mach factor: 4.82
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
@@ -2035,8 +2035,8 @@ configure:22234: checking for sigstack
 configure:22291: gcc -o conftest -O2 -pipe   conftest.c  >&5
 Undefined symbols for architecture x86_64:
   "_sigstack", referenced from:
-      _main in ccNbccaw.o
-      _f in ccNbccaw.o
+      _main in ccxjUclZ.o
+      _f in ccxjUclZ.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 configure:22297: $? = 1
@@ -2765,6 +2765,7 @@ config.status:716: creating pth-config
 config.status:716: creating pth.h
 config.status:716: creating pth_acmac.h
 config.status:819: creating pth_acdef.h
+config.status:1105: pth_acdef.h is unchanged
 config.status:1263: executing default commands
 
 ## ---------------- ##
